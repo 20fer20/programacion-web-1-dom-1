@@ -1,7 +1,7 @@
 // @TODO Completar...
 const contenedor = document.getElementById('contenedor');
 
-var lista = new DocumentFragment()
+let lista = new DocumentFragment()
 
 lista.forEach(function () {
     for ( i=0, i == 50, i++){
@@ -11,5 +11,5 @@ lista.forEach(function () {
     }
 })
 
-list.appendChild(lista)
+lista.appendChild(lista);
 
